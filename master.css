@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: linear-gradient(135deg, black, rgb(1, 119, 192)); */
+    height: 100vh;
+    border: 3px dashed white;
+    color: white;
+    padding: 10px;
+    background-color: #1e1e2e;
+
+}
+
+.info-cont {
+
+    height: 500px;
+
+    position: absolute;
+    right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    padding: 10px;
+    font-size: 20px;
+    gap: 15px;
+
+    font-family: monospace;
+    background-color: pink;
+
+    border-radius: 12px;
+}
+
+.info-cont h2 {
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+
+.info-cont h2,
+.info-cont div {
+    padding: 5px;
+}
+
+.info-cont div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 15px;
+
+
+}
+
+.info-cont div h3 {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cont div span {
+    background-color: rgba(128, 128, 128, 0.692);
+    padding: 7px;
+    /* border-radius: 12px; */
+    /* position: absolute; */
+    color: white;
+
+}
+
+.info-cont div:nth-child(2n) {
+    background-color: salmon;
+}
+
+.info-cont div:nth-child(2n+1) {
+    background-color: orange;
+    color: black;
+}
+
+
+.redirect-cont {
+    position: absolute;
+    left: 10px;
+    border: 2px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+    gap: 14px;
+    font-family: monospace;
+    border-radius: 12px;
+}
+
+.redirect-cont label {
+    background-color: gold;
+    color:black;
+    padding: 5px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+
+}
+
+.redirect-cont input {
+    background-color: whitesmoke;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+    font-family: inherit;
+    color: rgb(1, 92, 92);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.redirect-cont .buttons {
+    /* border: 2px solid gray; */
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.redirect-cont .buttons button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+
+    font-family: inherit;
+    font-size: inherit;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+.buttons .go{
+    background-color: green;
+    color: white;
+}
+.buttons .replace{
+    background-color: red;
+    color: white;
+}
+.buttons .reload{
+    background-color: yellow;
+}
+
+::selection{
+    background-color: gold;
+}
