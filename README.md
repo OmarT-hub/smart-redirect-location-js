@@ -47,7 +47,7 @@ A simple web project built with **HTML, CSS, and JavaScript** to demonstrate how
 
 ## 💻 Live Demo
 
-[Click Here](https://your-live-demo-link.com)
+[Click Here](https://omart-hub.github.io/smart-redirect-location-js/)
 
 ---
 
